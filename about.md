@@ -26,49 +26,76 @@ titles:
 key: page-about
 ---
 
-![TeXt Theme](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-home.jpg)
+### About me
+<table border="0">
+  <tr>
+    <td width="75%">
+      <p><b>Company: Eigen Labs</b></p>
+      <p><b>Email: zhoululu789 at gmail.com </b></p>
+      <p><b>Social Media:
+        <a href="https://www.linkedin.com/in/lulu-zhou-303824170/">LinkedIn</a>
+      </b></p>
+    </td>
+    <td width="25%">
+      <img src="./pictures/my_photo.png" width="100%">      
+    </td>
+  </tr>
+</table>
 
-TeXt is a super customizable Jekyll theme for personal site, team site, blog, project, documentation, etc. Similar to iOS 11 style, it has large and prominent titles, round buttons and cards.
+### Publications:
+[View on Google Scholar](https://scholar.google.com/citations?user=Hx-AeMwAAAAJ&hl=en)
+1. Sprints: Intermittent Blockchain PoW Mining (USENIX'24), M Mirkin, L Zhou, I Eyal, F Zhang [[pdf]](https://eprint.iacr.org/2023/626)
+2. Real-Time Recursive Routing in Payment Channel Network: A Bidding-based Design (WiOpt'22), J Liu, C Chen, L Zhou, Z Fang [[pdf]](https://dl.ifip.org/db/conf/wiopt/wiopt2022/1570807019.pdf)
+3. CrudiTEE: A Stick-and-Carrot Approach to Building Trustworthy Cryptocurrency Wallets with TEEs (AFT’24), L Zhou, Z Liu, F Zhang, and M Reiter [[pdf]](https://drops.dagstuhl.de/storage/00lipics/lipics-vol316-aft2024/LIPIcs.AFT.2024.16/LIPIcs.AFT.2024.16.pdf) [[slides]](https://github.com/luluzhou1/luluzhou1.github.io/blob/master/CrudiTEE_Crypto_wallet.pdf)
+4. Mechanism Design for ZK-Rollup Prover Markets, W Wang, L Zhou, A Yaish, F Zhang, B Fisch, and B Livshits [[pdf]](https://arxiv.org/html/2404.06495v1)
 
-```javascript
-(() => console.log('Hello, World!'))();
-```
 
-## Features
+<!---*
+### Other links:
+* [CV](https://github.com/luluzhou1/luluzhou1.github.io/blob/master/Resume_Lulu_Zhou_2024_Oct.pdf)
+* [LinkedIn](https://www.linkedin.com/in/lulu-zhou-303824170/)
+ [Twitter](https://twitter.com/LuluZhou14) -->
 
-- Responsive
-- Semantic HTML
-- Skins
-- Highlight Theme
-- Internationalization
-- Search
-- Table of contents
-- Authors
-- Additional styles (alert, tag, image, icon, button, grid, etc)
-- Extensions (audios, videos, slides, demos)
-- Markdown enhancements ([MathJax](https://www.mathjax.org/), [mermaid](https://mermaidjs.github.io/), [chartjs](http://www.chartjs.org/))
-- Sharing ([AddToAny](https://www.addtoany.com/), [AddThis](https://www.addthis.com/))
-- Comments ([Disqus](https://disqus.com/), [Gitalk](https://gitalk.github.io/), [Valine](https://valine.js.org/en/))
-- Pageview ([LeanCloud](https://leancloud.cn/))
-- Analytics ([Google Analytics](https://analytics.google.com/analytics/web/))
-- RSS ([jekyll-feed](https://github.com/jekyll/jekyll-feed))
+### Projects related to blockchain
+1. Ethereum Fast Confirmation Rule
+   * Implemented the Ethereum Fast Confirmation Rule, tested its security and performance using real Ethereum data collected from the Beacon API, and authored blog posts to explain the rule and test results clearly.
+   * Advanced research and promoted the adoption of the Fast Confirmation Rule, enhancing the security of Ethereum.
+2. ZK Proof Accelerator
+   * Modified the snarkjs and ffjavascript packages to implement dynamic caching for ZK-Login.
+   * Accelerated the MSM process in ZK proof by 15\% and reduced the total proof generation time by 3\%.
+  
+3. TEE Wallet
+   * Developed a Trusted Execution Environment (TEE)-based wallet for secure secret key management, employing OAuth to ensure an accountable authorization process.
+   * Enhanced security using insurance and bounty incentives, and evaluated the solution's effectiveness using a MDP model.
+  
+4. Sprints
+   * Developed "Sprints," a blockchain protocol combining PoW and PoD to reduce ecological impact while maintaining security.
+   * Validated its security through performance testing with patched Bitcoin clients.
 
-## Skins
+5. Transaction Relay Strategy
+   * Analyzed optimal transaction relaying in Payment Channel Networks (PCNs) using MDP to optimize relay policies.
+   * Developed an algorithm for optimal relay strategies in PCNs, assessing the impact on network performance.
 
-TeXt has 6 built-in skins, you can also set up your own skin.
+1. Analysis of blockchain mining strategy based on MDP
+  * This project aims to analyse the best way to mining in proof of work blockchain in order to make maximum profit.
+  * [View the project](https://github.com/doris-lessing/Selfish-Mining-Simulator)
+  * [View my thesis](https://github.com/doris-lessing/Blockchain_attack_MDP) (This page shows main idea and results, thesis in the repository was written in Chinese.)
 
-| `default` | `dark` | `forest` |
-| --- |  --- | --- |
-| ![Default](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_default.jpg) | ![Dark](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_dark.jpg) | ![Forest](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_forest.jpg) |
-
-| `ocean` | `chocolate` | `orange` |
-| --- |  --- | --- |
-| ![Ocean](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_ocean.jpg) | ![Chocolate](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_chocolate.jpg) | ![Orange](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_orange.jpg) |
-
-### Highlight Theme
-
-TeXt use [Tomorrow](https://github.com/chriskempson/tomorrow-theme) as the highlight theme.
-
-| `tomorrow` | `tomorrow-night` | `tomorrow-night-eighties` | `tomorrow-night-blue` | `tomorrow-night-bright` |
-| --- |  --- | --- | --- |  --- |
-| ![Tomorrow](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow.png) | ![Tomorrow Night](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night.png) | ![Tomorrow Night Eighties](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-eighties.png) | ![Tomorrow Night Blue](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-blue.png) | ![Tomorrow Night Bright](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-bright.png) |
+### Projects related to data science:
+  
+1. Image processing algorithms implements
+  * This project is meant to implements some classical alogorithms in image processing to get a deeper understanding of them. 
+  * [View the project of image transformation](https://github.com/zhangyilang/ImageTransform)
+  * [View the project of threshholding and interpulation](https://github.com/doris-lessing/image-processing)
+  
+2. Spark project: Turkey's population data analysis
+  * Analyse a large dataset using Spark. 
+  * [View the project](https://github.com/doris-lessing/spark_project)
+  
+3. Social network analysis on Bilibili
+  * Crawled data from bilibili.com, analyzed the social network of bilibili.
+  * [View the paper](https://github.com/doris-lessing/Social_Network_Mining_on_Bilibili/blob/master/Social%20network%20analysis%20and%20reference%20system%20construction%20on%20Bilibili.pdf)
+    
+4. Social network analysis in Chinese rural primary schools
+  * We collected questionnaires about the background and social relationships of 227 primary school students when teaching as volunteers. This project focuses on the social network among the students.
+  * [View the project](https://github.com/doris-lessing/social-network-mining)
