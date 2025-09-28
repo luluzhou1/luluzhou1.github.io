@@ -1,0 +1,42 @@
+---
+title: Explain Rust Ownership Using Shared Fridge
+tags: 
+- Rust
+---
+
+## Ownership for Memory Safety
+
+
+## Analogy
+Kitchen counter: stack
+Kitchen fridege: heap
+Kitchen manager: compiler? executor?
+Functions: cooking robots
+foods: variables, data
+tickets: pointer to the 
+function call: robot A order hand over some food to robot B to process
+
+A group of robots cooks in the kitchen.
+They can put food on the counter.
+They can also request a box in the fridge and keep a ticket referring to that on the counter.
+
+
+
+## Kitchen space management
+Only working robots can keep their stuff on the counter and the fridge.
+
+
+In some office, there's no manager. So you need to order the robots to throw away food no longer needed as a programmer (C).
+You may run into trouble if you order the robot to throw away your food while it will be used in the future.
+In some office, there's a space manager. The manager throw away stale food.
+There are two kinds of managers:
+1. One that check the working schedule of the robots and throw away food as soon as it become useless (rust).
+2. One that try to make space by looking up useless food in the fridging from time to time.
+
+Only one robot can own the box in the fridge at one time. 
+A robot may hand over the ownership to another robot.
+
+
+
+
+Notes: Cooking is an imperitive process: changed are made to the food. So cooking may not be a good analagy of functional programming. But this is fine since we focus on 
