@@ -21,7 +21,7 @@ This is where AI can shine—even if it never becomes a superhuman stock picker:
 - **Personalized coaching at scale.** Instead of generic advice, an agent can provide just-in-time, portfolio-specific nudges that help you stay the course.
 - **Fee deflation on “emotional labor.”** Much of what investors pay for—calm and clarity—can be delivered 24/7 by software.
 
-Will AI *beat the market*? Maybe in niches, sometimes. But the bigger near-term win is shrinking **behavioral drag**: the costly gap between a strategy’s returns and what the investor actually captures after fear and FOMO. If AI helps more of us behave like disciplined, low-cost indexers with sensible guardrails, that alone is a massive upgrade.
+Will AI *beat the market*? Maybe. But the bigger near-term win is shrinking **behavioral drag**: the costly gap between a strategy’s returns and what the investor actually captures after fear and FOMO. If AI helps more of us behave like disciplined, low-cost indexers with sensible guardrails, that alone is a massive upgrade.
 
 **Bottom line:** AI doesn’t need to be a genius investor to matter. It just needs to protect the framework when it’s hardest for humans to do so.
 
