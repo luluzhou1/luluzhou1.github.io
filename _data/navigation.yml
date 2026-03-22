@@ -24,7 +24,9 @@ header:
       tr      : &TR       Arşivdekiler
       # @end locale config
     url: /archive.html
-
+  - titles:
+      en      : &EN       CV
+    url: /files/cv.pdf
   - titles:
       # @start locale config
       en      : &EN       About
