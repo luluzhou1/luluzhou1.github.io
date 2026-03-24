@@ -1,5 +1,5 @@
 ---
-title: Complexity: How to Become a Good Programmer in the AI Era
+title: How to Become a Good Programmer in the AI Era
 tags: 
 - programming
 - AI
